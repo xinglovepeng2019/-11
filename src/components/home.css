@@ -1,0 +1,61 @@
+.home{
+    width: 100%;
+    background-color: #f4f4f4;
+}
+  
+  .ant-carousel .slick-slide img {
+    color: #fff;
+  }
+.ant-carousel,.slick-slider,.slick-list,.slick-slide{
+    width: 100%;
+} 
+.slick-track{
+    width: 100%;
+} 
+.imgs{
+    width: 100% !important;
+    height: 13rem;
+}
+.ant-carousel .slick-slide {
+    float: left;
+    text-align: center;
+    overflow: hidden;
+  }
+.ant-carousel{
+    margin-top: 2px !important;
+}
+
+  /* 电台 */
+  .radios {
+      padding: 0 ;
+  }
+  .radios h4{
+      height: 2rem;
+      line-height: 2rem;
+      font-size: 16px;
+      font-weight: normal;
+      width: 96%;
+      margin: 0 auto;
+  }
+  .radios .radiosList{
+      width: 96%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+  }
+  .radios .radiosList li{
+      width: 49%;
+      background-color: #fff;
+      padding-bottom: .1rem;
+      margin-bottom: 1rem;
+  }
+  .radios .radiosList li img{
+      width: 100%;
+  }
+  .radios .radiosList li p{
+      margin-top: 5px;
+      font-size: 12px;
+      line-height: 20px;
+  }

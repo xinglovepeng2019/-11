@@ -1,0 +1,44 @@
+.head{
+    background-color: #fff;
+}
+.head .title{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.head>.title>img{
+    width: 7rem;
+    height: 2rem;
+}
+.head>.title>p{
+   margin: 0;
+   border: 1px solid #dfdfdf;
+   color: #3b3b3b;
+   height: 1.6rem;
+   line-height: 1.6rem;
+   padding: .2rem .5rem ;
+   border-radius: 1.5rem;
+}
+.headMenu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.headMenu>li{
+    width: 33.33%;
+    text-align: center;
+}
+.headMenu>li>a{
+    padding: .5rem;
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+}
+.headMenu>li .active{
+    color: #31c27c;
+    border-bottom: 2px solid #31c27c;
+}

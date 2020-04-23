@@ -1,0 +1,39 @@
+.ranking{
+    margin-top: 1rem;
+}
+.ranking>ul>li{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 0;
+}
+.ranking .left{
+    width: 28%;
+}
+.ranking .left img{
+    width:100%;
+}
+.ranking .right{
+    width: 60%;
+}
+.ranking .right h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.5rem;
+}
+.ranking .right li{
+    list-style:decimal ;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ranking .right li span{
+    color: #999;
+    margin-right: .5rem;
+}
+.ranking .right li i{
+    font-style: normal;
+    color: #000;
+}
